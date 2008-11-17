@@ -32,7 +32,7 @@
 #include <boot/flash.h>
 #include <boot/board.h>
 
-#include <bootimg.h>
+#include <boot/bootimg.h>
 
 #define FLASH_PAGE_SIZE 2048
 #define FLASH_PAGE_BITS 11
