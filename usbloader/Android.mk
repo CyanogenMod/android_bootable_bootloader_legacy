@@ -3,8 +3,7 @@ include $(CLEAR_VARS)
 
 LOCAL_ARM_MODE := arm
 
-LOCAL_C_INCLUDES := $(call include-path-for, bootloader)
-LOCAL_C_INCLUDES += tools/mkbootimg
+LOCAL_C_INCLUDES := $(call include-path-for, bootloader mkbootimg)
 
 LOCAL_SRC_FILES := init.S main.c usbloader.c
 
