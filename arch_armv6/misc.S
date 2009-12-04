@@ -27,7 +27,9 @@
  */
 
 .global periph_2gb_open
+.type periph_2gb_open, %function
 .global periph_2gb_close
+.type periph_2gb_close, %function
 
 periph_2gb_open:
 	/* open the peripheral port 2gb */

@@ -26,7 +26,8 @@
  * SUCH DAMAGE.
  */
 
-.global jtag_hook, func
+.global jtag_hook
+.type jtag_hook, %function
 
 jtag_hook:
 	bx lr

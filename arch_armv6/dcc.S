@@ -27,7 +27,9 @@
  */
 
 .global dcc_putc
+.type dcc_putc, %function
 .global dcc_getc
+.type dcc_getc, %function
 
 dcc_getc:
 	mrc 14, 0, r0, c0, c1, 0 

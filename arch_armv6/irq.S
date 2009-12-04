@@ -27,6 +27,7 @@
  */
 
 .global enable_irq
+.type enable_irq, %function
 		
 enable_irq:
 	cpsie i
