@@ -29,6 +29,6 @@
 void *memset(void *_p, unsigned v, unsigned count)
 {
     unsigned char *p = _p;
-    while(count-- > 0) *p++ = 0;
+    while(count-- > 0) *p++ = v;
     return _p;
 }
